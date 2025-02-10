@@ -1,0 +1,3 @@
+#!/bin/bash
+# Script pour afficher le contenu du répertoire actuel
+ls

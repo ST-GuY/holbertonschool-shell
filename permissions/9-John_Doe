@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod 731 hello
+touch hello ./chmod 644 hello ./9-John_Doe ./ls -l hello

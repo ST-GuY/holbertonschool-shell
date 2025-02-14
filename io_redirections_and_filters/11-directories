@@ -1,0 +1,8 @@
+#!/bin/bash
+compte=0
+for dir in ./*; do
+  if [ -d "$dir" ]; then
+    ((compte++))
+  fi
+done
+

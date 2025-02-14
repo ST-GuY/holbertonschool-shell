@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -mindepth 1 -maxdepth 2 -type d -print0 | grep -zP "^./" | grep -zPv "^\.|^\.\." | grep -zcP "^./"
+find . -type d ! -path . -print | wc -l

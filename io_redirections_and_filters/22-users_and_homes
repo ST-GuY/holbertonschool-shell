@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -M /etc/passwd
+cut -c /etc/passwd
